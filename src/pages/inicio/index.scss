@@ -1,0 +1,111 @@
+.pagina-inicio {
+    font-family: 'Roboto', 'Arial';
+
+    .menu {
+        padding: 80px;
+
+        .cards {
+            display: flex;
+            gap: 45px;
+            margin-top: 36px;
+
+            flex-wrap: wrap;
+            
+
+            .link {
+                text-decoration: none;
+
+            }
+
+            .card {
+                width: 200px;
+                height: 160px;
+                border-radius: 12px;
+
+                text-align: center;
+                align-content: center;
+                background-color: white;
+                text-decoration: none;
+
+                .retangulo {
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 12px;
+                }
+
+                .laranja {
+                    background-color: red;
+                }
+
+                .larajin {
+                    background-color: orange;
+                }
+                    
+                .amarelo {
+                    background-color: yellow;
+                }
+
+                .roxo {
+                    background-color: rgb(78, 4, 78);
+                }
+
+                .azul {
+                    background-color: cyan;
+                }
+
+                .azuzin {
+                    background-color: rgb(195, 25, 201);
+                }
+
+                .verde {
+                    background-color: green;
+                }
+
+                .verdin{
+                    background-color: #00ffbf;
+                }
+
+                .pretin{
+                    background-color: #000000;
+                }
+
+                .cinzin{
+                    background-color: #ebebeb;
+                }
+
+                .marrozin{
+                    background-color: #793e07;
+                }
+
+
+
+               
+
+                .titulo {
+                    font-size: 12px;
+                    font-weight: bold;
+                    margin-top: 10px;
+                    color: #383131;
+                }
+
+                .subtitulo {
+                    font-size: 16px;
+                    font-weight: lighter;
+                    margin-top: 10px;
+                    color: #383131;
+                }
+                .logo {
+                    margin-top: 3px;
+                    height: 20%;
+                }
+
+                
+                
+                
+                
+            }
+        }
+    }
+}

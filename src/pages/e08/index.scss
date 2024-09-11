@@ -1,0 +1,124 @@
+.pagina-e08 {
+  font-family: "Roboto", "Arial";
+
+
+
+    .tabela-temperatura {
+      width: 60%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      border: 2px solid #FFA07A;
+  }
+
+  .tabela-temperatura th {
+      background-color: #FFA07A;
+      padding: 10px;
+      font-size: 18px;
+      text-align: left;
+      color: #fff;
+  }
+
+  .tabela-temperatura td {
+      padding: 10px;
+      border: 1px solid #FFA07A;
+  }
+
+  .tabela-temperatura tr:nth-child(even) {
+      background-color: #FDEDEC;
+  }
+
+  .tabela-temperatura tr:nth-child(odd) {
+      background-color: #FFE4E1;
+  }
+
+  
+  
+  
+  
+  .exercicio {
+    padding: 60px;
+
+    .titulo {
+      .texto {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        h2 {
+          margin-left: 10px;
+        }
+      }
+      .voltar {
+        height: 50px;
+      }
+    }
+    .faixa {
+      background-color: #000000 !important;
+      height: 5px;
+    }
+
+    .descricao {
+      background-color: #ffffff;
+      height: 215px;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .formulario {
+      width: 480px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      text-align: end;
+      margin-top: 40px;
+
+      .campos {
+        height: 595px !important ;
+        padding: 20px;
+
+        text-align: start;
+        align-content: center;
+
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        .campo {
+          margin-bottom: 20px;
+
+          label {
+            font-size: 18px;
+            font-weight: bold;
+          }
+
+          input {
+            width: 100%;
+            margin-top: 8px;
+            border-radius: 8px;
+            border-style: none;
+            border: 2px solid #c3c3c3;
+            font-size: 24px;
+          }
+        }
+
+        .executar {
+          text-decoration: none;
+          float: right;
+          padding: 10px 20px;
+          background-color: #6278f7;
+          color: white;
+          border-radius: 8px;
+        }
+      }
+
+      .resultado {
+        margin-top: 10px;
+      }
+    }
+  }
+}
