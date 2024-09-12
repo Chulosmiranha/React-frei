@@ -58,47 +58,49 @@ export default function E10() {
             tabela. Ao final, apresente o IMC e a situação.
           </p>
         </div>
+        <div className="middle-center">
+          <div className="formulario">
+            <div className="campos">
+              <div className="colum">
+                <div className="campo">
+                  <div className="altura_peso">
+                    <label>Altura</label>
+                    <input
+                      type="number"
+                      placeholder="0"
+                      value={altura}
+                      onChange={(e) => setAltura(e.target.value)}
+                    />
+                  </div>
 
-        <div className="formulario">
-          <div className="campos">
-            <div className="colum">
-              <div className="campo">
-                <div className="altura_peso">
-                  <label>Altura</label>
-                  <input
-                    type="number"
-                    placeholder="0"
-                    value={altura}
-                    onChange={(e) => setAltura(e.target.value)}
-                  />
+                  <div className="altura_peso">
+                    <label>Peso</label>
+                    <input
+                      type="number"
+                      placeholder="0"
+                      value={peso}
+                      onChange={(e) => setPeso(e.target.value)}
+                    />
+                  </div>
                 </div>
-
-                <div className="altura_peso">
-                  <label>Peso</label>
-                  <input
-                    type="number"
-                    placeholder="0"
-                    value={peso}
-                    onChange={(e) => setPeso(e.target.value)}
-                  />
-                </div>
+                <button className="executar" onClick={calcweight}>
+                  Executar
+                </button>
               </div>
-              <button className="executar" onClick={calcweight}>
-                Executar
-              </button>
             </div>
           </div>
-        </div>
-        <div className="card-container">
-          {card.map((item, index) => (
-            <Card
-              key={index}
-              altura={item.altura}
-              peso={item.peso}
-              situa={item.situacao}
-              onDelete={() => removerItem(index)}
-            />
-          ))}
+          <div className="card-container">
+            {card.map((item, index) => (
+              <Card
+                key={index}
+                altura={item.altura}
+                peso={item.peso}
+                situa={item.situacao}
+                onDelete={() => removerItem(index)}
+              />
+              
+            ))}
+          </div>
         </div>
       </div>
     </div>

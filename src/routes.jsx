@@ -11,7 +11,8 @@ import E07 from "./pages/e07/index.jsx";
 import E08 from "./pages/e08/index.jsx";
 import E09 from "./pages/e09/index.jsx";
 import E10 from "./pages/e10/index.jsx";
-import E11 from "./pages/e11";
+import E11 from "./pages/e11/index.jsx";
+import E12 from "./pages/e12/index.jsx";
 
 function Navigation() {
   return (
@@ -30,8 +31,9 @@ function Navigation() {
         <Route path="/e08" element={<E08 />} />
         <Route path="/e09" element={<E09 />} />
         <Route path="/e10" element={<E10 />} />
-
         <Route path="/e11" element={<E11 />} />
+        <Route path="/e12" element={<E12 />} />
+        
       </Routes>
     </BrowserRouter>
   );

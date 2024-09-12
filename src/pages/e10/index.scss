@@ -10,6 +10,12 @@
   width: 100%;
   margin: 0 auto;
   padding: 20px;
+  
+  .middle-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
   .conteudo {
     display: flex;
@@ -17,7 +23,7 @@
     align-items: flex-start;
 
     .formulario {
-      width: 40%;
+      width: 40vw;
       background-color: #f4f4f4;
       padding: 20px;
       border-radius: 10px;
@@ -49,7 +55,7 @@
     }
 
     .historico {
-      width: 50%;
+      width: 40vw;
       display: flex;
       flex-direction: column;
       gap: 10px;

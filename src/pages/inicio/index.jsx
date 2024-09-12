@@ -99,6 +99,13 @@ export default function Inicio() {
             </div>
           </Link>
 
+          <Link to="/e12" className="link">
+            <div className="card">
+              <div className="amarelo" />
+              <h3 className="titulo">Comparador de pessoas</h3>
+              <h4 className="subtitulo">Exercício 12</h4>
+            </div>
+          </Link>
 
         </div>
       </div>
